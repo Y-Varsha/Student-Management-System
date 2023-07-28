@@ -1,0 +1,158 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav
+{
+    position : fixed;
+    background-color:goldenrod;
+    height : 70px;
+    width: 100%;
+    z-index :1;
+}
+.logo
+{
+    font-size:50px;
+    position: relative;
+    letter-spacing: 2px;
+    left: 5%;
+    color:darkred;
+    font-weight:bold;
+    line-height: 70px;
+    font-family: 'Bigelow Rules', cursive;
+}
+ul
+{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin:0 5px ;
+}
+ul li a{
+     text-decoration: none ;
+     color: white;
+     font-size: 17px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+    }
+.main_img{
+    width: 100%;
+    height: 300px;
+}
+.section1{
+    padding-top: 70px;
+} 
+.img_text{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color:black;
+    background-color: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+    font-family: 'IM Fell English SC', serif
+   
+    
+}
+.welcome_img{
+    width: 100%;
+    height: 250px;
+}
+.container{
+    padding-top: 70px;
+}
+.col-md-8{
+    float: right;
+}
+.house{
+    width: 80%;
+    height: 200px;
+}
+.house1{
+    width: 90%;
+    height: 300px;
+    border-radius:5px;
+    background-color:black;
+    padding: 0.5em;
+
+}
+.label_text{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+.input_design{
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    border:2px solid mediumblue;
+}
+.adm_int{
+    padding-top: 10px;
+}
+.input_txt{
+    width: 30%;
+    height: 120px;
+    border-radius: 25px;
+    border:2px solid mediumblue;
+}
+#submit{
+    position: relative;
+    width: 15%;
+    left: 5%;
+}
+footer{
+    background-color: saddlebrown;
+    height: 70px;
+    width: 100%;
+}
+.footer_text{
+    text-align: center;
+    color: white;
+    top: 20%;
+    position: relative;
+    font-family:'Permanent Marker', cursive;
+}
+.adm{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.form_design{
+    padding-top: 200px;
+}
+.label_deg{
+    display: inline-block;
+    color:beige;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title_deg{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Permanent Marker', cursive;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.body_deg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
